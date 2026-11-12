@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
+  <defs>
+    <linearGradient id="pegasBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00559C"/>
+      <stop offset="100%" stop-color="#0072CE"/>
+    </linearGradient>
+    <linearGradient id="pegasGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5FA82D"/>
+      <stop offset="100%" stop-color="#76C043"/>
+    </linearGradient>
+    <linearGradient id="ctaOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF5500"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-10%" width="110%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="844" height="204" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <g transform="translate(34, 34)">
+    <rect x="0" y="10" width="136" height="16" rx="8" fill="url(#pegasBlue)"/>
+    <rect x="0" y="34" width="148" height="16" rx="8" fill="url(#pegasBlue)"/>
+    <rect x="0" y="58" width="142" height="16" rx="8" fill="url(#pegasGreen)"/>
+    <rect x="0" y="82" width="154" height="16" rx="8" fill="url(#pegasBlue)"/>
+
+    <g transform="translate(116, -6)">
+      <path d="M52,18 C44,12 31,14 22,10 C13,6 6,2 2,0 C3,8 7,14 14,18 C9,18 5,17 3,16 C6,22 12,26 19,27 C14,28 10,27 8,26 C12,32 19,35 26,35 C22,37 18,37 16,36 C21,42 30,44 38,42 C36,46 35,51 37,56 C29,56 23,61 21,69 C19,77 21,84 18,89 C16,92 13,92 11,90 C10,95 14,101 21,102 C28,103 33,97 33,89 C33,82 30,76 32,71 C35,76 41,81 42,87 C43,92 39,96 39,101 C39,106 43,113 46,117 L52,117 C49,112 46,106 47,102 C51,106 54,111 56,115 L60,113 C59,107 54,101 49,97 C48,92 52,87 52,82 C52,75 56,70 63,66 C70,62 75,56 76,49 C80,50 84,48 87,44 C89,47 90,51 89,55 C88,58 90,62 93,64 L95,60 C94,57 95,53 95,49 C95,45 92,41 90,38 C93,38 97,39 100,42 C102,44 105,43 107,41 L104,37 C100,34 94,33 88,33 C86,30 83,28 80,27 C80,22 77,18 73,16 C72,13 73,10 76,9 C79,8 82,9 84,10 C86,9 87,6 86,4 C85,2 81,1 78,1 C76,-2 73,-4 69,-5 L67,-8 L65,-5 C63,-5 61,-4 60,-2 C55,1 52,6 51,12 C51,14 52,16 52,18 Z"
+            fill="#FFFFFF" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M52,18 C44,12 31,14 22,10 C13,6 6,2 2,0 C3,8 7,14 14,18 C9,18 5,17 3,16 C6,22 12,26 19,27 C14,28 10,27 8,26 C12,32 19,35 26,35 C22,37 18,37 16,36 C21,42 30,44 38,42 C36,46 35,51 37,56 C29,56 23,61 21,69 C19,77 21,84 18,89 C16,92 13,92 11,90 C10,95 14,101 21,102 C28,103 33,97 33,89 C33,82 30,76 32,71 C35,76 41,81 42,87 C43,92 39,96 39,101 C39,106 43,113 46,117 L52,117 C49,112 46,106 47,102 C51,106 54,111 56,115 L60,113 C59,107 54,101 49,97 C48,92 52,87 52,82 C52,75 56,70 63,66 C70,62 75,56 76,49 C80,50 84,48 87,44 C89,47 90,51 89,55 C88,58 90,62 93,64 L95,60 C94,57 95,53 95,49 C95,45 92,41 90,38 C93,38 97,39 100,42 C102,44 105,43 107,41 L104,37 C100,34 94,33 88,33 C86,30 83,28 80,27 C80,22 77,18 73,16 C72,13 73,10 76,9 C79,8 82,9 84,10 C86,9 87,6 86,4 C85,2 81,1 78,1 C76,-2 73,-4 69,-5 L67,-8 L65,-5 C63,-5 61,-4 60,-2 C55,1 52,6 51,12 C51,14 52,16 52,18 Z"
+            fill="url(#pegasBlue)"/>
+      <path d="M51,24 C54,26 58,27 62,27 C59,29 55,29 51,27 Z" fill="#FFFFFF"/>
+    </g>
+
+    <text x="236" y="74" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="76" letter-spacing="2" fill="url(#pegasBlue)">PEGAS</text>
+    <text x="239" y="100" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="18.5" letter-spacing="11.2" fill="url(#pegasGreen)">TOURISTIK</text>
+    <text x="0" y="138" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="13.5" letter-spacing="0.4" fill="#64748B">Товарный знак по лицензии • Официальное турагентство</text>
+  </g>
+
+  <line x1="564" y1="34" x2="564" y2="186" stroke="#E2E8F0" stroke-width="1.5" stroke-linecap="round"/>
+
+  <g transform="translate(590, 36)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="236" height="58" rx="14" fill="#F1F7FE"/>
+      <circle cx="28" cy="29" r="16" fill="#0066B3" fill-opacity="0.12"/>
+      <path d="M28,18 C23.58,18 20,21.58 20,26 C20,31.25 28,40 28,40 C28,40 36,31.25 36,26 C36,21.58 32.42,18 28,18 Z M28,28.8 C26.45,28.8 25.2,27.55 25.2,26 C25.2,24.45 26.45,23.2 28,23.2 C29.55,23.2 30.8,24.45 30.8,26 C30.8,27.55 29.55,28.8 28,28.8 Z" fill="#0066B3"/>
+      <text x="54" y="26" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="17" letter-spacing="0.5" fill="#0F172A">БЕРДСК</text>
+      <text x="54" y="45" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="13.5" fill="#475569">ул. Лелюха, 9</text>
+    </g>
+
+    <g transform="translate(4, 80)">
+      <circle cx="8" cy="11" r="4.5" fill="url(#ctaOrange)"/>
+      <text x="22" y="17" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="19.5" letter-spacing="0.3" fill="#0F172A">+7-953-766-54-54</text>
+
+      <circle cx="8" cy="43" r="4.5" fill="#0066B3"/>
+      <text x="22" y="49" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="19.5" letter-spacing="0.3" fill="#0F172A">+7-913-702-07-42</text>
+    </g>
+  </g>
+</svg>

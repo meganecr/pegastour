@@ -26,11 +26,6 @@ body {
   padding: 40px 20px;
 }
 
-.airplane-img {
-  height: 1rem;
-  margin-right: 8px;
-}
-
 .main-content {
   max-width: 680px;
   margin: 0 auto;
@@ -43,6 +38,7 @@ body {
 
 .main-logo {
   object-fit: contain;
+  max-width: 680px;
 }
 
 .out-card, .reviews-block, .social-media-block {
