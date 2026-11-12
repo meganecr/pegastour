@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="maxGrad" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#2BC4F3"/>
+      <stop offset="48%" stop-color="#3B66F5"/>
+      <stop offset="100%" stop-color="#8B3DFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#maxGrad)"/>
+  <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M 264 78
+    C 365 78, 438 150, 438 250
+    C 438 352, 364 424, 260 424
+    C 224 424, 192 414, 165 397
+    C 146 413, 121 424, 96 425
+    C 84 426, 78 416, 82 405
+    C 92 378, 97 352, 96 326
+    C 88 302, 84 276, 84 250
+    C 84 150, 160 78, 264 78 Z
+    M 262 162
+    C 208 162, 168 200, 168 252
+    C 168 272, 174 290, 184 305
+    C 186 314, 183 324, 177 332
+    C 188 331, 199 327, 208 321
+    C 224 331, 242 337, 262 337
+    C 316 337, 356 300, 356 250
+    C 356 200, 316 162, 262 162 Z
+  "/>
+</svg>
