@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900');
+@import url('https://googleapis.com');
 
 :root {
   --primary-color: #004B87;
@@ -31,14 +31,168 @@ body {
   margin: 0 auto;
 }
 
-.pegastour-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 .main-logo {
   object-fit: contain;
   max-width: 680px;
+}
+
+.pegastour-header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1px auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "logo divider address"
+    "caption divider phones";
+  column-gap: 32px;
+  row-gap: 8px;
+  align-items: start;
+  padding: 20px 32px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.pegas-logo {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pegas-logo-icon {
+  height: 88px;
+  width: auto;
+  display: block;
+}
+
+.pegas-logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+  width: max-content;
+}
+
+.pegas-logo-title {
+  color: var(--primary-color);
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+  justify-content: center;
+}
+
+.pegas-logo-subtitle {
+  color: #70b62c;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  text-align: justify;
+  text-align-last: justify;
+  letter-spacing: 12px;
+  justify-content: center;
+}
+
+.pegas-logo-caption {
+  grid-area: caption;
+  margin: 4px 0 0 0;
+  font-size: 18px;
+  color: var(--text-other);
+  align-self: end;
+}
+
+.pegas-logo-divider {
+  grid-area: divider;
+  width: 1px;
+  height: 100%;
+  background-color: #e2e8f0;
+}
+
+.pegas-adress {
+  grid-area: address;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-light);
+  padding: 10px 18px;
+  border-radius: 12px;
+}
+
+.pegas-adress-icon {
+  width: 24px;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.pegas-adress-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.pegas-adress-city {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.pegas-adress-street {
+  font-size: 14px;
+  color: var(--text-other);
+}
+
+.pegas-phone {
+  grid-area: phones;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
+.pegas-phone-item {
+  display: flex;
+  text-decoration: none;
+  color: var(--text-main);
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s;
+  align-items: center;
+  gap: 4px;
+}
+
+.pegas-phone-item:hover {
+  color: var(--accent-hover);
+}
+
+.pegas-phone-dot {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pegas-phone-dot::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.pegas-phone-dot-orange::before {
+  background-color: var(--accent-color);
+}
+
+.pegas-phone-dot-blue::before {
+  background-color: var(--primary-color);
 }
 
 .out-card, .reviews-block, .social-media-block {
